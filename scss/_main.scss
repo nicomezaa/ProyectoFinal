@@ -1,0 +1,32 @@
+main {
+  .slide {
+    margin-top: 20px; 
+  }
+  
+  .slide img {
+    height: 90vh; 
+  }
+  div {            
+    .rotate-360{
+      @include transition;
+    }
+    .rotate-360:hover{
+      @include hover;
+    }          
+  }
+  .mapa {
+    @include mapa {
+      width: 300px;
+      height: 225px;
+    }
+    @include mapachico {
+      width: 200px;
+      height: 125px;
+    }
+
+  }
+  .imagenTexto {
+        width: 250px;
+        height: 130px;
+      }
+}

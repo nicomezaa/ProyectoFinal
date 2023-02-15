@@ -1,0 +1,23 @@
+header {
+    #logo {
+    width: $logopx;
+   }
+    .bi {
+    @include redes;
+   }
+    #redes {
+    @include transition;
+    @include ajustes {
+            display: none;
+       }
+   } 
+    .search {
+    @include search {
+        display:none;
+    }
+   }
+   #redes:hover {
+    @include hover2;
+   }
+
+}
